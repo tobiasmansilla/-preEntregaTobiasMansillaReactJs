@@ -1,0 +1,14 @@
+.item-list-container {
+    width: 1920px;
+    height: 190px;
+    text-align: center;
+    padding-top: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.141);
+    color: #ffffff;
+}
+
+.item-list-container h2 {
+    font-size: 40px;
+}

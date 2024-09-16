@@ -40,3 +40,11 @@
 .read-the-docs {
   color: #888;
 }
+/*agregado*/
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #4a148c;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}

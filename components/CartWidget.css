@@ -1,0 +1,18 @@
+.cart-widget {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.cart-widget i {
+    font-size: 24px;
+}
+
+.cart-count {
+    background-color: #FF5733;
+    color: white;
+    border-radius: 30%;
+    padding: 5px 13px;
+    margin-left: 10px;
+    font-size: 16px;
+}
