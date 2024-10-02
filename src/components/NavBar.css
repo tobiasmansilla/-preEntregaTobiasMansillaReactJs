@@ -1,6 +1,6 @@
 .navbar {
     width: 100%;
-    background-color: rgba(137, 43, 226, 0.482);
+    background-color: rgb(105, 45, 160);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,6 +10,8 @@
     left: 0;
     color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    height: 60px;
 }
 
 .navbar-logo {
@@ -26,6 +28,7 @@
 .navbar-logo h1 {
     font-size: 24px;
     margin: 0;
+    color: white;
 }
 
 .navbar-links {

@@ -1,0 +1,37 @@
+.item-list-container {
+    display: flex;
+    flex-direction: column; /* Asegúrate de que las tarjetas se apilen en una columna */
+    align-items: center; /* Centra las tarjetas horizontalmente */
+    padding: 20px; /* Espacio alrededor de la lista */
+    margin-top: 70px; /* Margen superior para evitar superposición con la navbar */
+}
+
+.item-list-container h2 {
+    font-size: 40px;
+}
+
+.items-grid {
+    display: flex; /* Utiliza flexbox para la grilla */
+    flex-direction: column; /* Cambia esto a columna para alinear las tarjetas verticalmente */
+    align-items: center; /* Centra las tarjetas horizontalmente */
+    gap: 20px; /* Espacio entre las tarjetas */
+    width: 100%; /* Asegura que la grilla use todo el ancho disponible */
+}
+
+.item-detail-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.item-card{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
