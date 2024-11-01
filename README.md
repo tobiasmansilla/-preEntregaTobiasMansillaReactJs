@@ -1,6 +1,6 @@
 # Music Store 🎵
 
-**IMPORTANTE** el hosting local en vercel no me funcionó, intenté en netlify también pero no hubo caso. Está subido en GitHub.
+**IMPORTANTE** el hosting local en vercel no me funcionó, intenté en netlify también pero no hubo caso. Está subido en GitHub. link: [https://tobiasmansilla.github.io/preEntregaTobiasMansillaReactJs/](https://tobiasmansilla.github.io/preEntregaTobiasMansillaReactJs/)
 
 **Music Store** es un simulador de e-commerce dedicado a la venta de productos de música, ubicado en Argentina. Este proyecto ofrece una interfaz simple y accesible para que los usuarios naveguen por un catálogo de productos de música, incluyendo álbumes, merchandising y otros artículos relacionados. Al ser un simulador, su propósito es ilustrar el flujo de trabajo de una tienda en línea, desde la navegación de productos hasta la visualización de detalles de cada ítem.
 
