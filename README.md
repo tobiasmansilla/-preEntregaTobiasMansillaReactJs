@@ -1,5 +1,7 @@
 # Music Store 🎵
 
+**IMPORTANTE** el hosting local en vercel no me funcionó, intenté en netlify también pero no hubo caso. Está subido en GitHub.
+
 **Music Store** es un simulador de e-commerce dedicado a la venta de productos de música, ubicado en Argentina. Este proyecto ofrece una interfaz simple y accesible para que los usuarios naveguen por un catálogo de productos de música, incluyendo álbumes, merchandising y otros artículos relacionados. Al ser un simulador, su propósito es ilustrar el flujo de trabajo de una tienda en línea, desde la navegación de productos hasta la visualización de detalles de cada ítem.
 
 ## Objetivo del Proyecto 📌
@@ -72,7 +74,3 @@ Para cualquier consulta, puedes contactarme en:
 
 - **Email**: [tobias021506@gmail.com](mailto:tobias021506@gmail.com)
 - **GitHub**: [https://github.com/tobiasmansilla](https://github.com/tobiasmansilla)
-
----
-
-Este `README.md` proporciona una introducción completa al proyecto. Asegúrate de ajustar cualquier dato de contacto o detalles adicionales. ¡Espero que sea útil!
