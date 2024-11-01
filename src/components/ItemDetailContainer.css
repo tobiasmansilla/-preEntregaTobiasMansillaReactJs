@@ -72,3 +72,49 @@
     font-size: 20px;
     font-weight: bold;
 }
+
+.quantity-control {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantity-control label {
+    font-size: 18px;
+    color: #333;
+}
+
+.quantity-control input[type="number"] {
+    width: 60px;
+    height: 35px;
+    padding: 5px;
+    border: 2px solid #5d00ff;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: all 0.3s ease;
+}
+
+.quantity-control input[type="number"]:focus {
+    border-color: #4802bf;
+    box-shadow: 0 0 5px rgba(93, 0, 255, 0.3);
+}
+
+.quantity-control input[type="number"]::-webkit-inner-spin-button,
+.quantity-control input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.quantity-control input[type="number"]:hover {
+    border-color: #4802bf;
+}
+
+/*input no válido*/
+.quantity-control input[type="number"]:invalid {
+    border-color: #ff0000;
+}

@@ -1,13 +1,14 @@
 import { Link } from 'react-router-dom';
 import CartWidget from './CartWidget';
 import './NavBar.css';
+import logoMusic from '../assets/img/logoMusic.png';
 
 const NavBar = () => {
     return (
         <nav className="navbar">
             <div className="navbar-logo">
                 <Link to="/">
-                    <img src="/public/img/logoMusic.ico" alt="Logo" className="navbar-logo-img" />
+                    <img src={logoMusic} alt="Logo" className="navbar-logo-img" />
                     <h1>Music Store</h1>
                 </Link>
             </div>
