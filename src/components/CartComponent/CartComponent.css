@@ -1,0 +1,14 @@
+.cartComponent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    max-width: 100%;
+}
+
+.cartImg {
+    width: 200px;
+    height: 200px;
+}

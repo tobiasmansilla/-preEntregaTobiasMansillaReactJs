@@ -1,0 +1,20 @@
+.container {
+   display: flex;
+   flex-wrap: wrap; 
+   justify-content: space-around; 
+   gap: 20px; 
+   padding: 20px;
+ }
+ 
+
+ @media (max-width: 768px) {
+   .cardProducts {
+     flex: 1 1 calc(50% - 40px); /* En pantallas más pequeñas, cada card ocupa 50% */
+   }
+ }
+ 
+ @media (max-width: 480px) {
+   .cardProducts {
+     flex: 1 1 100%; /* En pantallas muy pequeñas, cada card ocupa el 100% */
+   }
+ }
